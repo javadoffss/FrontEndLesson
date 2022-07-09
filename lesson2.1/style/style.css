@@ -1,0 +1,16 @@
+body {
+    background-color: darkgray;
+    color: white;
+}
+
+.div1 p {
+    margin: 0% 12% 5%;
+}
+
+.div2 p {
+    margin: 0% 8%;
+}
+
+h1, h3 {
+    text-align: center;
+}
