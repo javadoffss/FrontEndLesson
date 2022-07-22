@@ -1,0 +1,28 @@
+body {
+    width: 50%;
+}
+
+.div1 h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 100%;
+}
+
+.div1 p {
+    color: darkgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+    text-align: center;
+}
+.button button{
+    color: white;
+    margin-right: 2rem;
+    padding: 5px 8px ;
+    border-color: transparent;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
