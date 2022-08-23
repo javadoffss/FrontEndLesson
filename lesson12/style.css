@@ -1,0 +1,87 @@
+* {
+        box-sizing: border-box;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .container .flex-container {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  
+  .container .flex-container .left {
+    width: 32%;
+    background-image: url(https://images.pexels.com/photos/8473906/pexels-photo-8473906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .container .flex-container .right {
+    width: 44%;
+    padding: 10px;
+  }
+  
+  .container .flex-container .right h1 {
+    margin: 10px 0px;
+  }
+  
+  .container .flex-container .right .header {
+    color: #D9032E;
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  .container .flex-container .right p{
+    color: gray;
+  }
+  
+  .container .flex-container .right label{
+    color: gray;
+  }
+  
+  .container .flex-container .right .about {
+    width: 150px;
+    height: 45px;
+    border: 2px solid #D9032E;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    color: #D9032E;
+    font-size: 14px;
+    margin-top: 45px;
+    text-align: center;
+    padding: 13px;
+  }
+  
+  .container .flex-container .left::before {
+    content: "";
+    width: 330px;
+    height: 500px;
+    border: 8px solid #BABABA;
+    position: absolute;
+    bottom: 32px;
+    right: 44px;
+  }
+  
+  .container .flex-container .left::after {
+    content: "SINCE 1992";
+    background-color: #D9032E;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.6;
+    color: white;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    text-align: center;
+    transform: rotate(180deg);
+    padding: 20px 15px;
+  }
